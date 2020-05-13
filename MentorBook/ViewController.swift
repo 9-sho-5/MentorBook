@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         setUI()
     }
 
+    //巡回するようにindexの値の変更
     @IBAction func pre() {
         index = index - 1
         if index < 0 {
